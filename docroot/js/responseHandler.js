@@ -9,7 +9,7 @@ function getResponseTextInfo(responseText){
     var success = false;  
     var msg = "";
     if(responseText != "") {  
-        var obj = jQuery.parseJSON(responseText); 
+        var obj = jQuery_1_7_1.parseJSON(responseText); 
         success = (obj.success == "true" || obj.success === true)?true:false;
         msg = obj.message;
         body = obj.body;
