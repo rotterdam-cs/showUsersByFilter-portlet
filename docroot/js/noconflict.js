@@ -1,0 +1,1 @@
+var jQuery_1_7_1 = jQuery.noConflict();
