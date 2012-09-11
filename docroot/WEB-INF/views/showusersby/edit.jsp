@@ -42,7 +42,7 @@
 				</p><br />
 				<p>
 				    <code>
-				    	Liferay.fire('showFilteredUsers', {role: '10161');					    				
+				    	Liferay.fire('showFilteredUsers', {role: '10161'});					    				
 					</code>
 				</p><br />
 	    	</div>
