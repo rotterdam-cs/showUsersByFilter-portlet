@@ -89,8 +89,7 @@ public class ShowUsersByController {
 		}
 		
 		BloggersDTO usersDTO = getfilteredUsers(filtertype, group, role, jobtitle, tags, linktype, customlink, category, show_email, show_phone);		
-		modelAttrs.put("filteredUsers",usersDTO);		
-		
+		modelAttrs.put("filteredUsers",usersDTO);
 		return new ModelAndView("showusersby/view", modelAttrs);
 	}
 	
