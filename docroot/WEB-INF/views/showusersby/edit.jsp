@@ -118,7 +118,7 @@
 		        <label for="<portlet:namespace/>customlink"><fmt:message key="com.rcs.show.users.by.filter.custom.link"/>:</label>
 		        <div class="controls">
 			        <input type="text" name="<portlet:namespace/>customlink" class="span6" id="<portlet:namespace/>customlink" value="${customlink}" /><br />
-			        <fmt:message key="com.rcs.show.users.by.filter.custom.link.help"/>
+			        <small><fmt:message key="com.rcs.show.users.by.filter.custom.link.help"/></small>
 		        </div>
 		    </div>	    
 		    <div id="<portlet:namespace/>ipccontainer" <c:if test="${linktype != '2'}">style="display:none;"</c:if>>

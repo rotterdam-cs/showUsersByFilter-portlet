@@ -375,7 +375,7 @@ public class ShowUsersByController {
 				
 			//Custom
 			} else if (linktype.equals("3")) {
-				userDTO.setUrl(customlink.replace("{userid}", Long.toString(filteredUser.getUserId())));
+				userDTO.setUrl( customlink.replace("{screenname}", filteredUser.getScreenName() ).replace("{userid}", Long.toString( filteredUser.getUserId() )) );
 			//Filter Blog or Asset
 			} else if (linktype.equals("4")) {
 				
