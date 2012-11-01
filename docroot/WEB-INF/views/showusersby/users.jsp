@@ -13,7 +13,7 @@
 <portlet:defineObjects />
 
 <c:forEach items="${filteredUsers.blogger}" var="user">
-	<div class="filtered-users">
+	<div class="<portlet:namespace/>filtered-users">
 		<liferay-ui:user-display userId="${user.userId}" url="${user.url}" displayStyle="${displaystyle}">
 		    <span class="user-details" rel="${user.userId}" id="categoryauthorlink-${user.authorcategory}"><c:out value="${user.comment}" escapeXml="false" /></span>
 		</liferay-ui:user-display>

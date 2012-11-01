@@ -73,7 +73,7 @@
 			
 			<%--//If the link type is IPC (Inter Portlet Communication) --%> 
 			<c:if test="${linktype == '2'}">
-				jQuery_1_7_1(document).on("click", ".filtered-users", function(e) {
+				jQuery_1_7_1(document).on("click", ".<portlet:namespace/>filtered-users", function(e) {
 			    	e.preventDefault();
 			    	var userId = jQuery_1_7_1(this).find(".user-details span").attr("rel");
 			    	sendIPC<portlet:namespace/>(userId);
@@ -81,7 +81,7 @@
 			</c:if>
 			<%--//If the link type is Filter Blog or Asset--%> 
 			<c:if test="${linktype == '4'}">
-				jQuery_1_7_1(document).on("click", ".filtered-users", function(e) {
+				jQuery_1_7_1(document).on("click", ".<portlet:namespace/>filtered-users", function(e) {
 			    	e.preventDefault();
 			    	var categorytagname = jQuery_1_7_1(this).find(".user-details span").attr("id");
 			    	var id = categorytagname.replace("categoryauthorlink","categoryauthor");

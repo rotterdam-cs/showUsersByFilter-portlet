@@ -1,2 +1,0 @@
-showUsersByFilter-portlet
-=========================
