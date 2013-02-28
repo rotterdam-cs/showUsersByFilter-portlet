@@ -85,7 +85,7 @@ public class ShowUsersByController {
 		
 		BloggersDTO usersDTO = getfilteredUsers(filtertype, group, role, jobtitle, tags, linktype, customlink, category, show_email, show_phone);		
 		modelAttrs.put("filteredUsers",usersDTO);
-		return new ModelAndView("showusersby/view", modelAttrs);
+		return new ModelAndView("/WEB-INF/views/showusersby/view.jsp", modelAttrs);
 	}
 	
 	
@@ -152,7 +152,7 @@ public class ShowUsersByController {
 			BloggersDTO usersDTO = getfilteredUsers(filtertype, group, role, jobtitle, tags, linktype, customlink, category, show_email, show_phone);		
 			modelAttrs.put("filteredUsers",usersDTO);
 		}
-        return new ModelAndView("showusersby/users", modelAttrs);  
+        return new ModelAndView("/WEB-INF/views/showusersby/users.jsp", modelAttrs);  
     }
 	
 	
