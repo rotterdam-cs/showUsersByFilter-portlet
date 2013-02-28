@@ -92,7 +92,7 @@ public class EditShowUsersByController {
 		modelAttrs.put("selectedshow_email", show_email);
 		modelAttrs.put("selectedshow_phone", show_phone);
 		
-		return new ModelAndView("showusersby/edit", modelAttrs);
+		return new ModelAndView("/WEB-INF/views/showusersby/edit.jsp", modelAttrs);
 	}
 	
 	
