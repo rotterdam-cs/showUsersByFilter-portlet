@@ -242,6 +242,7 @@ public class EditShowUsersByController {
 	 * Get All Categories
 	 * @return
 	 */
+	@SuppressWarnings("unchecked")
 	private List<AssetCategory> getAllCategory() {		
 		ClassLoader classLoader = PortalClassLoaderUtil.getClassLoader();
 		DynamicQuery query2 = DynamicQueryFactoryUtil.forClass(AssetCategory.class,classLoader);
