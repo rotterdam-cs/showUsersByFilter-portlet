@@ -1,19 +1,16 @@
 <?xml version="1.0"?>
-<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.1.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_1_0.dtd">
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
 <liferay-portlet-app>	
 	<portlet>
 		<portlet-name>showUsersByFilter</portlet-name>
 		<icon>/rcs.png</icon>
 		<instanceable>true</instanceable>
         <header-portlet-css>/js/jquery-loadmask/jquery.loadmask.css</header-portlet-css>
-<!-- 		<header-portlet-css>/js/bootstrap/css/bootstrap.css</header-portlet-css> -->
-<!--         <header-portlet-css>/js/bootstrap/css/bootstrap-responsive.css</header-portlet-css> -->
         <header-portlet-css>/js/jquery-ui-1.8.16.custom-redmond/css/redmond/jquery-ui-1.8.16.custom.css</header-portlet-css>
 		<header-portlet-css>/css/main.css</header-portlet-css>		
 		<header-portlet-javascript>/js/noconflictpre.js</header-portlet-javascript>
 		<header-portlet-javascript>/js/jquery/jquery-1.7.1.min.js</header-portlet-javascript>  	
   		<header-portlet-javascript>/js/noconflict.js</header-portlet-javascript>  		 
-<!-- 		<header-portlet-javascript>/js/bootstrap/js/bootstrap.js</header-portlet-javascript> -->
 		<header-portlet-javascript>/js/jquery-ui-1.8.16.custom-redmond/js/jquery-ui-1.8.16.custom.min.js</header-portlet-javascript>
         <header-portlet-javascript>/js/jquery-loadmask/jquery.loadmask.min.js</header-portlet-javascript>	    
 	    <header-portlet-javascript>/js/jquery.json-2.3/jquery.json-2.3.min.js</header-portlet-javascript>
